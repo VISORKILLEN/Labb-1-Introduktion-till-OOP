@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Labb_1___Introduktion_till_OOP
+﻿namespace Labb_1___Introduktion_till_OOP
 {
     internal class Circle
     {
@@ -16,7 +10,6 @@ namespace Labb_1___Introduktion_till_OOP
         {
             Radie = radie;
         }
-
 
         public double GetArea()
         {
@@ -30,7 +23,6 @@ namespace Labb_1___Introduktion_till_OOP
             Console.WriteLine($"Omkretsen på den cirklen är {2 * Radie * _pi}");
             return 2 * Radie * _pi;
         }
-
 
         public double GetVolume()
         {
